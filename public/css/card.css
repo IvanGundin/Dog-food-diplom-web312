@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+.popup-content {
+    margin: 0 auto;
+    max-width: 300px;
+}
+.popup-img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: #f8f9fa;
+}
+.popup-title {
+    font-size: 24px;
+    margin-top: 10px;
+}
+.popup-price {
+    font-size: 18px;
+    color: green;
+    margin-top: 5px;
+}
+.popup-desc {
+    margin-top: 10px;
+}

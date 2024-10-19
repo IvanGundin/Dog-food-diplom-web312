@@ -1,0 +1,101 @@
+header {
+    background-color: #ffef11;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.alert {
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+a:active {
+    color: inherit;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ff00c3;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.food {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.food-card {
+    flex: 0 0 calc(25% - 16px);
+    margin: 8px;
+    height: 400px;
+    transition: transform 0.3s;
+}
+
+.food-card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.button_logout {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button_logout:hover {
+    background-color: #ff1a1a;
+}

@@ -1,0 +1,46 @@
+.auth-message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.auth-message {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.auth-message h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: black;
+}
+
+.auth-message p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: black;
+}
+
+.auth-message .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #eeff05;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.auth-message .btn:hover {
+    background-color: green;
+    transition-delay: 0.1s;
+}
+
+.auth-message .btn:active {
+    transform: scale(1);
+}

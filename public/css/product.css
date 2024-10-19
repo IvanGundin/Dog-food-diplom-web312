@@ -1,0 +1,73 @@
+.container {
+    min-height: 60vh;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 50px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card-price {
+    font-size: 16px;
+    color: #777;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.remove-btn {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 12px;
+    align-self: center;
+}
+
+.remove-btn:hover {
+    background-color: #ff1a1a;
+}
+
+.checkout-btn {
+    position: relative;
+    display: flex;
+    justify-self: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background-color: #0056b3;
+}
